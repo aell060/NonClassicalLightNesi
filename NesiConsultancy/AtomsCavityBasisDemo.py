@@ -21,6 +21,8 @@ parser.add_argument('-c', '--conffile', default='config.ini',
                     help='Path to the configuration file')
 args = parser.parse_args()
 
+#qt.about()
+
 #%% Read in configs
 configs = configparser.ConfigParser()
 conffile = args.conffile
